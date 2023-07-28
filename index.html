@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CaloriMate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="nav--wrapper">
+            <h1 class="logo">CaloriMate</h1>
+            <ul class="nav--list">
+              <li class="nav--link">
+                <a class="nav--link__anchor" href="">About Us</a>
+              </li>
+              <li class="nav--link">
+                <a class="nav--link__anchor" href="#Projects">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <p>Your personalized maintenance calorie estimator</p>
+    </header>
+
+    <main>
+      <section id="">
+        <h2>Welcome to CaloriMate</h2>
+        <p>
+          We are here to help you understand your personal maintenance calories
+          – whether you aim to lose weight, gain weight, or just become more
+          cognizant of your caloric balance.
+        </p>
+      </section>
+
+      <section>
+        <h2>Enter Your Data</h2>
+        <form id="data-form">
+          <label for="daily-calories">Daily Caloric Intake:</label>
+          <input
+            type="number"
+            id="daily-calories"
+            name="daily-calories"
+            required
+          />
+
+          <label for="daily-weight">Daily Weight:</label>
+          <input type="number" id="daily-weight" name="daily-weight" required />
+
+          <input type="submit" value="Calculate" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2023 CaloriMate. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
