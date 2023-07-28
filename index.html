@@ -14,29 +14,43 @@
             <h1 class="logo">CaloriMate</h1>
             <ul class="nav--list">
               <li class="nav--link">
-                <a class="nav--link__anchor" href="">About Us</a>
-              </li>
-              <li class="nav--link">
                 <a class="nav--link__anchor" href="#Projects">Login</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <p>Your personalized maintenance calorie estimator</p>
     </header>
 
-    <main>
-      <section id="">
-        <h2>Welcome to CaloriMate</h2>
-        <p>
-          We are here to help you understand your personal maintenance calories
-          – whether you aim to lose weight, gain weight, or just become more
-          cognizant of your caloric balance.
-        </p>
-      </section>
+    <section></section>
 
-      <section>
+    <section id="about-us">
+      <div class="container">
+        <div class="about--us__wrapper">
+          <div class="about-us__text">
+            <h2 class="about-us--title">
+              Welcome to <span class="color-purple">CaloriMate</span>
+            </h2>
+            <p>
+              We are here to help you understand your
+              <span class="color-purple">personal</span> maintenance calories –
+              whether you aim to lose weight, gain weight, or just become more
+              cognizant of your caloric balance.
+            </p>
+          </div>
+          <div class="about--us__img--wrapper">
+            <img
+              src="./assets/diet_pic.svg"
+              alt="diet graphic"
+              class="about-us--img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="data-entry">
+      <div class="container">
         <h2>Enter Your Data</h2>
         <form id="data-form">
           <label for="daily-calories">Daily Caloric Intake:</label>
@@ -52,8 +66,8 @@
 
           <input type="submit" value="Calculate" />
         </form>
-      </section>
-    </main>
+      </div>
+    </section>
 
     <footer>
       <p>© 2023 CaloriMate. All rights reserved.</p>

@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  line-height: 1.5;
+}
+
 li {
   list-style: none;
   text-decoration: none;
@@ -22,9 +26,13 @@ li {
   margin: 0 auto;
 }
 
+.color-purple {
+  color: #6c63ff;
+}
+
 /* Navbar */
 nav {
-  background-color: #666;
+  background-color: #bebebe;
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -46,15 +54,43 @@ nav {
 
 .nav--link__anchor {
   color: #fff;
+  transition-duration: 500ms;
 }
 
 .nav--link__anchor:hover {
-  color: #fff;
   text-decoration: underline;
+  color: #6c63ff;
 }
 
 .logo {
   color: #fff;
+}
+
+/* About Us */
+
+#about-us {
+  padding-top: 40px;
+}
+
+.about--us__wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about--us__img--wrapper {
+  max-width: 500px;
+}
+
+.about-us__text {
+  max-width: 500px;
+}
+
+.about-us--img {
+  width: 100%;
+}
+
+.about-us--title {
+  padding-bottom: 10px;
 }
 
 form label {
@@ -83,7 +119,7 @@ form input[type='submit'] {
 
 footer {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 footer p {
