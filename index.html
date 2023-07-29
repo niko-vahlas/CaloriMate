@@ -29,18 +29,18 @@
         <div class="about--us__wrapper">
           <div class="about-us__text">
             <h2 class="about-us--title">
-              Welcome to <span class="color-purple">CaloriMate</span>
+              Welcome to <span class="color-blue">CaloriMate</span>
             </h2>
             <p>
               We are here to help you understand your
-              <span class="color-purple">personal</span> maintenance calories –
+              <span class="color-blue">personal</span> maintenance calories –
               whether you aim to lose weight, gain weight, or just become more
-              cognizant of your caloric balance.
+              aware of your caloric balance.
             </p>
           </div>
           <div class="about--us__img--wrapper">
             <img
-              src="./assets/diet_pic.svg"
+              src="./assets/diet_img.svg"
               alt="diet graphic"
               class="about-us--img"
             />
@@ -51,19 +51,18 @@
 
     <section class="data-entry">
       <div class="container">
-        <h2>Enter Your Data</h2>
-        <form id="data-form">
-          <label for="daily-calories">Daily Caloric Intake:</label>
-          <input
-            type="number"
-            id="daily-calories"
-            name="daily-calories"
-            required
-          />
-
-          <label for="daily-weight">Daily Weight:</label>
-          <input type="number" id="daily-weight" name="daily-weight" required />
-
+        <p class="data-entry--para">
+          Enter at least ten days of data. This will help make the calculated
+          maintenance calories more accurate.
+        </p>
+        <form id="input-form">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" />
+          <label for="calories">Calories Consumed:</label>
+          <input type="number" id="calories" name="calories" />
+          <label for="weight">Weight:</label><br />
+          <input type="number" id="weight" name="weight" />
+          <button type="button" id="add-row-button">Add Row</button>
           <input type="submit" value="Calculate" />
         </form>
       </div>

@@ -26,13 +26,13 @@ li {
   margin: 0 auto;
 }
 
-.color-purple {
-  color: #6c63ff;
+.color-blue {
+  color: #00bfa6;
 }
 
 /* Navbar */
 nav {
-  background-color: #bebebe;
+  background-color: #00bfa6;
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -59,7 +59,7 @@ nav {
 
 .nav--link__anchor:hover {
   text-decoration: underline;
-  color: #6c63ff;
+  color: #fff;
 }
 
 .logo {
@@ -93,35 +93,49 @@ nav {
   padding-bottom: 10px;
 }
 
-form label {
-  display: block;
-  font-weight: bold;
-  margin-top: 10px;
+/* Data Entry */
+
+.data-entry--para {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
-form input[type='number'] {
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  padding-bottom: 10px; /* Reduced from 20px */
+}
+
+input,
+button {
   width: 100%;
   padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
-form input[type='submit'] {
-  display: block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: #333;
-  color: white;
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button {
   cursor: pointer;
+  background-color: #00bfa6;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #00e8d2;
 }
 
 footer {
-  text-align: center;
   margin-top: 60px;
-}
-
-footer p {
-  color: #666;
+  text-align: center;
 }
